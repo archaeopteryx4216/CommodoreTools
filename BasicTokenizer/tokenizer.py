@@ -106,7 +106,7 @@ class Options():
         else:
             self.input = sys.stdin
         if outname:
-            self.output = open(outname, mode='r')
+            self.output = open(outname, mode='wb')
         else:
             self.output = open(DEFAULT_OUTPUT, mode='wb')
 
